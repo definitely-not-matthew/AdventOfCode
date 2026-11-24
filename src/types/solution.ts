@@ -1,4 +1,9 @@
+export type DaySolution = {
+    dayNumber: number;
+    solutions: Solution[];
+} 
+
 export type Solution = {
-    solutionKey: string;
+    solutionPart: string;
     answer: string;
 }

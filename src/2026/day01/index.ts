@@ -1,5 +1,5 @@
-import { Solution } from "../../types/solution";
+import { Solution, DaySolution } from "../../types/solution";
 
-export function solve(): Solution {
-    return { solutionKey: "2026_day01", answer: "42" };
+export function solve(): DaySolution {
+    return { dayNumber: 1, solutions: [{ solutionPart: "1", answer: "42" }] };
 }
