@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+  "solve": "tsx",
+  "solve:2026": "tsx src/2026/index.ts",
+  "watch": "tsx watch",
+  "check": "tsc --noEmit"
+}
+}
